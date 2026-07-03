@@ -1,6 +1,6 @@
-# Using Capture Growth Charts
+# Using Capture Growth Chart
 
-The Capture Growth Charts plugin is a web application that allows users to capture and view growth data for children under the age of five.
+The Capture Growth Chart plugin is a web application that allows users to capture and view growth data for children under the age of five.
 The application is designed to be used by health workers to view growth charts for children in their care.
 The plugin is designed to be used on tablet or computer devices and is optimized for data entry and visualization of growth charts for efficient monitoring of child development.
 
@@ -22,7 +22,7 @@ Read more about plugins [here](https://kdb.devotta.com/docs/capture-plugins/gett
 
 ### Growth chart plugin download
 
-Download the Capture Growth Charts plugin available in the [DHIS2 App Hub](https://apps.dhis2.org/app/09f48f78-b67c-4efa-90ad-9ac2fed53bb8) in the **App Management** app on DHIS2.
+Download the Capture Growth Chart plugin available in the [DHIS2 App Hub](https://apps.dhis2.org/app/09f48f78-b67c-4efa-90ad-9ac2fed53bb8) in the **App Management** app on DHIS2.
 
 
 ## Configuration
@@ -55,7 +55,7 @@ The program should have the following attributes:
 
 
 #### Data elements
-[Data elements](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/metadata.html#manage_data_element) needed to support full functionality for the growth chart are: **Weight**, **Height** and **Head circumference**.
+[Data elements](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/metadata.html#manage_data_element) needed to support full functionality for the growth charts are: **Weight**, **Height** and **Head circumference**.
 **Weight** can be in either `grams` or `kg`, but **Height** and **Head circumference** should be in `cm`.
 If any of the data elements are missing, the growth chart will not be displayed.
 Documentation for configuring data elements on DHIS2 can be found [here](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/metadata.html#manage_data_element).
@@ -157,7 +157,7 @@ The `settings` object contains the following keys:
 ## Enable the plugin
 
 The **Tracker Plugin Configurator** app is used to enable the Growth Chart plugin in the Capture app.
-To display the growth chart in the Capture app, it is highly recommended to use the **Tracker Plugin Configurator** app. See documentation for [configuring enrollment plugins here](https://developers.dhis2.org/docs/capture-plugins/developer/configure-a-capture-plugin).
+To display the growth charts in the Capture app, it is highly recommended to use the **Tracker Plugin Configurator** app. See documentation for [configuring enrollment plugins here](https://developers.dhis2.org/docs/capture-plugins/developer/configure-a-capture-plugin).
 
 If you do not use the **Tracker Plugin Configurator** app, you can follow the guide on [configuring enrollment plugins](https://kdb.devotta.com/docs/capture-plugins/enrollment-plugins). Then the source should be:
 `"source": "https://<instance-url>/api/apps/capture-growth-chart/plugin.html"`

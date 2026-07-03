@@ -1,12 +1,12 @@
-# Capture Growth Charts
+# Capture Growth Chart
 
-A plugin for displaying growth charts in the Capture app.
+A plugin for displaying growth chart in the Capture app.
 The plugin is based on the [WHO growth standards](https://www.who.int/childgrowth/standards/en/) and is intended to be used in the context of child growth monitoring or nutrition programs.
 
 ## Features
 
-- Display growth charts for weight-for-age, height-for-age, weight-for-height, and head circumference-for-age.
-- Display growth charts for children aged 0-5 years.
+- Display growth chart for weight-for-age, height-for-age, weight-for-height, and head circumference-for-age.
+- Display growth chart for children aged 0-5 years.
 - Easily switch between different growth charts.
 - Create printed copies for parents or health workers.
 
@@ -14,7 +14,7 @@ The plugin is based on the [WHO growth standards](https://www.who.int/childgrowt
 
 1. Download the latest version of the plugin from the [App hub](https://apps.dhis2.org).
 2. Upload the plugin to your DHIS2 instance.
-3. Configure the capture app to display the growth charts in the correct context.
+3. Configure the capture app to display the growth chart in the correct context.
 4. Map required data elements and attributes to the growth chart plugin.
 
 ## Configuration
@@ -53,5 +53,5 @@ The configuration object should look something like this:
 
 ```
 
-Want to read more in details of how to configure the plugin? Check out the [documentation](https://github.com/dev-otta/dhis2-who-growth-chart/blob/master/docs/using-capture-growth-charts.md) in our user guide.
+Want to read more in details of how to configure the plugin? Check out the [documentation](https://github.com/dev-otta/capture-growth-chart/blob/master/docs/using-capture-growth-chart.md) in our user guide.
 
